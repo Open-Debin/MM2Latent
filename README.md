@@ -20,6 +20,3 @@ If you find this work useful, please consider citing it:
 
 
 
-## Acknowledgment
-
-This research was supported by 
