@@ -1,5 +1,5 @@
 # MM2Latent: Text-to-facial image generation and editing in GANs with multimodal assistance
-
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://www.arxiv.org/abs/2409.11010)
 Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial image generation and editing in GANs with multimodal assistance"***, accepted in the Advances in Image Manipulation workshop (**AIM**) Workshop of **ECCV 2024**. If you find this code useful for your research, please [cite](#citation) our paper.
 
 > [**MM2Latent: Text-to-facial image generation and editing in GANs with multimodal assistance"**] <br>Debin Meng, Christos Tzelepis, Ioannis Patras, and Georgios Tzimiropoulos<br>
