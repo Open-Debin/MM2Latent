@@ -16,14 +16,14 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 ## Citation
 
 If you find this work useful, please consider citing it:
-'''
+```
 @article{meng2024mm2latent,
   title={MM2Latent: Text-to-facial image generation and editing in GANs with multimodal assistance},
   author={Meng, Debin and Tzelepis, Christos and Patras, Ioannis and Tzimiropoulos, Georgios},
   journal={arXiv preprint arXiv:2409.11010},
   year={2024}
 }
-'''
+```
 
 
 ## Acknowledgment
