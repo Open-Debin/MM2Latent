@@ -13,6 +13,21 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 
 **Code coming soon...**
 
+## 📦 Environment Setup
+
+### Required Versions
+
+- Python: `3.8.17`
+- CUDA: `12.2.2` (built with `gcc-12.2.0`)
+- Conda: environment can be created from the provided `.yml` file
+
+### Create Conda Environment
+
+```bash
+conda env create -f ./environment/environement.yml
+conda activate mm2latent  # or the name defined in the yml
+
+
 
 
 ## Citation
