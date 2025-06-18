@@ -10,9 +10,6 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 ![alt text](image/teaser.jpg)
 
 
-
-**Code coming soon...**
-
 ## 📦 Environment Setup
 
 ### Required Versions
@@ -25,7 +22,7 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 
 ```
 conda env create -f ./environment/environement.yml
-conda activate mm2latent  # or the name defined in the yml
+conda activate mm2latent  
 ```
 
 ## 🛠️ Installation Steps
