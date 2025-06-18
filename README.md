@@ -61,6 +61,10 @@ python greyseg2embed.py
 python sketch2embed.py
 cd ..
 ```
+### 6. Run the Demo
+Open and run the .ipynb demo files under the ~/demo directory using Jupyter Notebook or similar tools.
+
+
 ## Citation
 
 If you find this work useful, please consider citing it:
@@ -72,8 +76,6 @@ If you find this work useful, please consider citing it:
   year={2024}
 }
 ```
-### 6. Run the Demo
-Open and run the .ipynb demo files under the ~/demo directory using Jupyter Notebook or similar tools.
 
 
 
