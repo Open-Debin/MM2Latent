@@ -38,10 +38,10 @@ conda activate mm2latent
 ## 🛠️ Installation Steps
 ### 1. Download Pretrained Models
 [StyleGAN2 Generator](https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view) 
-Put it into your ~/models directory.
+After downloading, place the file in the `./models` directory.
 
 [FaRL_ep64](https://github.com/FacePerceiver/FaRL/releases/download/pretrained_weights/FaRL-Base-Patch16-LAIONFace20M-ep64.pth)
-Put it into your ~/models directory.
+After downloading, place the file in the `./models` directory.
 
 ### 2. Data Processing - Face Parsing
 ```
@@ -52,7 +52,7 @@ cd ..
 ```
 ### 3. Extract Multimodal Embeddings
 ```
-cd modalities_encoding
+cd ./modalities_encoding
 python greyseg2embed.py
 python sketch2embed.py
 cd ..
