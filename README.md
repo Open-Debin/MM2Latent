@@ -10,23 +10,8 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 ![alt text](image/teaser.jpg)
 
 
-## 📦 Environment Setup
 
-### Required Versions
-
-- Python: `3.8.17`
-- CUDA: `12.2.2` (built with `gcc-12.2.0`)
-- Conda: environment can be created from the provided `.yml` file
-
-### Create Conda Environment
-
-```
-conda env create -f ./environment/environement.yml
-conda activate mm2latent  
-```
-
-## 🛠️ Installation Steps
-
+### 📦 Environment Setup
 ### 1. Clone the Repository
 
 ```
@@ -37,21 +22,35 @@ cd outsource
 git clone https://github.com/omertov/encoder4editing.git
 cd ..
 ```
-### 2. Download Pretrained Models
+### 2. Recommended Versions
+
+- **Python:** `3.8.17`
+- **CUDA:** `12.2.2` (built with `gcc-12.2.0`)
+
+Other environments may also work, as long as you can successfully run the StyleGAN2 generator.
+
+### 3. Create Conda Environment
+```
+conda env create -f ./environment/environement.yml
+conda activate mm2latent  
+```
+
+## 🛠️ Installation Steps
+### 1. Download Pretrained Models
 [StyleGAN2 Generator](https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view) 
 Put it into your ~/models directory.
 
 [FaRL_ep64](https://github.com/FacePerceiver/FaRL/releases/download/pretrained_weights/FaRL-Base-Patch16-LAIONFace20M-ep64.pth)
 Put it into your ~/models directory.
 
-### 4. Data Processing - Face Parsing
+### 2. Data Processing - Face Parsing
 ```
 cd ./face_parsing
 python face_rgb2greyseg.py
 python face_rgb2sketch.py
 cd ..
 ```
-### 5. Extract Multimodal Embeddings
+### 3. Extract Multimodal Embeddings
 ```
 cd modalities_encoding
 python greyseg2embed.py
