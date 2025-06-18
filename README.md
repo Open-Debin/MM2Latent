@@ -26,7 +26,7 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 ```bash
 conda env create -f ./environment/environement.yml
 conda activate mm2latent  # or the name defined in the yml
-
+```
 
 
 
