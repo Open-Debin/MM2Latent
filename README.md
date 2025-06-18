@@ -23,7 +23,7 @@ Authors' official PyTorch implementation of the ***"MM2Latent: Text-to-facial im
 
 ### Create Conda Environment
 
-```bash
+```
 conda env create -f ./environment/environement.yml
 conda activate mm2latent  # or the name defined in the yml
 ```
@@ -32,7 +32,7 @@ conda activate mm2latent  # or the name defined in the yml
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/Open-Debin/MM2Latent.git
 cd MM2Latent
 mkdir outsource
@@ -72,6 +72,9 @@ If you find this work useful, please consider citing it:
   year={2024}
 }
 ```
+### 6. Run the Demo
+Open and run the .ipynb demo files under the ~/demo directory using Jupyter Notebook or similar tools.
+
 
 
 ## Acknowledgment
