@@ -44,10 +44,23 @@ cd ..
 [StyleGAN2 Generator](https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view) 
 Put it into your ~/models directory.
 
-FaRL-Base-Patch16-LAIONFace20M-ep64
-Download from here
+[FaRL_ep64](https://github.com/FacePerceiver/FaRL/releases/download/pretrained_weights/FaRL-Base-Patch16-LAIONFace20M-ep64.pth)
 Put it into your ~/models directory.
 
+### 4. Data Processing - Face Parsing
+```
+cd ./face_parsing
+python face_rgb2greyseg.py
+python face_rgb2sketch.py
+cd ..
+```
+### 5. Extract Multimodal Embeddings
+```
+cd modalities_encoding
+python greyseg2embed.py
+python sketch2embed.py
+cd ..
+```
 ## Citation
 
 If you find this work useful, please consider citing it:
