@@ -28,7 +28,25 @@ conda env create -f ./environment/environement.yml
 conda activate mm2latent  # or the name defined in the yml
 ```
 
+## 🛠️ Installation Steps
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Open-Debin/MM2Latent.git
+cd MM2Latent
+mkdir outsource
+cd outsource
+git clone https://github.com/omertov/encoder4editing.git
+cd ..
+```
+### 2. Download Pretrained Models
+[StyleGAN2 Generator](https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view) 
+Put it into your ~/models directory.
+
+FaRL-Base-Patch16-LAIONFace20M-ep64
+Download from here
+Put it into your ~/models directory.
 
 ## Citation
 
