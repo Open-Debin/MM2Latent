@@ -61,11 +61,13 @@ Open and run the .ipynb demo files under the ~/demo directory using Jupyter Note
 
 If you find this work useful, please consider citing it:
 ```
-@article{meng2024mm2latent,
+@inproceedings{meng2024mm2latent,
   title={MM2Latent: Text-to-facial image generation and editing in GANs with multimodal assistance},
   author={Meng, Debin and Tzelepis, Christos and Patras, Ioannis and Tzimiropoulos, Georgios},
-  journal={arXiv preprint arXiv:2409.11010},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={88--106},
+  year={2024},
+  organization={Springer}
 }
 ```
 
